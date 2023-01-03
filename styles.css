@@ -2,7 +2,7 @@ html, body {
     height: 100vh;
     width: 100vw;
     margin: 0;
-    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    background-image: linear-gradient(to right, #d5e1eb, #d4d6d2);
     font-family: 'Poppins';
     overflow-x: hidden;
 }
@@ -11,32 +11,25 @@ html, body {
     top: 0;
     width: 100vw;
     height: 6vh;
-    color: #ffffff;
+    color: black;
     font-size: 20px;
     position: fixed;
     display: flex;
     align-items: center;
-    background-color: #000;
+    background-color: white;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #create-task {
-    margin-left: 50px;
-    margin-right: auto;
-    font-style: italic;
-    text-decoration: underline;
-    cursor: pointer;
-}
-#create-task:hover {
-    margin-bottom: 8px;
-    color: #7375ec;
-    text-shadow: 2px 2px 2px #7375ec93;
-
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  text-decoration: auto;
+  cursor: auto;
 }
 
-#heading {
-    margin-right: 50px;
-}
+
+
 
 #main-content {
     margin-top: 10vh;
@@ -61,12 +54,12 @@ html, body {
 
 .modal-content {
 
-    background-color: white;
+    background-color: black;
     border-radius: 12px;
     margin: auto;
     padding: 16px;
-    color: black;
-    border: 2px solid red;
+    color: white;
+    border: 2px solid black;
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -104,9 +97,9 @@ h3 {
 
 #add-task {
     margin-top: 14px;
-    margin-left: auto;
     height: 40px;
     width: 125px;
+    
 }
 
 
@@ -139,7 +132,7 @@ label {
     width: 16vw;
     min-width: 150px;
     border-radius: 8px;
-    background-color: wheat;
+    background-color: white;
     display: flex;
     flex-direction: column;
     margin-bottom: 150px;
@@ -148,16 +141,16 @@ label {
 }
 
 #card-header {
-    width: auto;
-    height: auto;
-    border-radius: 8px 8px 0 0;
-    font-size: 16px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.485);
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    letter-spacing: 1.5px;
+  width: auto;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  letter-spacing: 1.5px;
 
 }
 
@@ -165,26 +158,26 @@ label {
     width: auto;
     height: auto;
     padding: 12px;
-    padding-bottom: 150px;
+    padding-bottom: 250px;
 }
 
 .task {
-    width: auto;
-    height: auto;
-    border-radius: 8px;
-    font-size: 20px;
-    padding: 8px;
-    background-color: rgb(121, 95, 48);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    letter-spacing: 1.5px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
-    rgba(0, 0, 0, 0.07) 0px 2px 2px,
-    rgba(0, 0, 0, 0.07) 0px 4px 4px,
-    rgba(0, 0, 0, 0.07) 0px 8px 8px,
-    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 8px;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+  box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px,
+   rgb(0 0 0 / 7%) 0px 2px 2px,
+    rgb(0 0 0 / 7%) 0px 4px 4px,
+     rgb(0 0 0 / 7%) 0px 8px 8px, 
+     rgb(0 0 0 / 7%) 0px 16px 16px;
 }
 
 .task-heading {
@@ -225,13 +218,13 @@ margin: 0 4px 0 auto;
 }
 
 .bin-img:hover {
-    background-color: rgba(255, 0, 0, 0.957);
+    background-color: black);
 
 }
 
 /* CSS */
 .button-32 {
-    background-color: #fff000;
+    background-color: white;
     border-radius: 12px;
     color: #000;
     cursor: pointer;
@@ -251,8 +244,8 @@ margin: 0 4px 0 auto;
 .button-32:not(:disabled):hover,
 .button-32:not(:disabled):focus {
     outline: 0;
-    background: #f4e603;
-    box-shadow: 0 0 0 2px rgba(0,0,0,.2),
+    background: white;
+    box-shadow: 0 0 0 2px black),
      0 3px 8px 0 rgba(0,0,0,.15);
 }
 
@@ -266,35 +259,13 @@ margin: 0 4px 0 auto;
 .button-49,
 .button-49:after {
 
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: black;
   border: 0;
   color: #fff;
-  box-shadow: 6px 0px 0px #00E6F6;
-  outline: transparent;
-  position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-49:after {
-  --slice-0: inset(50% 50% 50% 50%);
-  --slice-1: inset(80% -6px 0 0);
-  --slice-2: inset(50% -6px 30% 0);
-  --slice-3: inset(10% -6px 85% 0);
-  --slice-4: inset(40% -6px 43% 0);
-  --slice-5: inset(80% -6px 5% 0);
   
-  content: 'ALTERNATE TEXT';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
-  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
-  clip-path: var(--slice-0);
+
+  position: relative;
+ 
 }
 
 .button-49:hover:after {
@@ -348,4 +319,3 @@ margin: 0 4px 0 auto;
     transform: translate(0);
   }
 }
-
